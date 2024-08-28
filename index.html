@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohsen MBT</title>
+<style>
+    *{
+        border:0;
+        margin:0;
+        text-decoration:none;
+        font-family:sans-serif;
+    }
+    body{
+        background-color:rgb(106, 106, 205);
+    }
+    .sign{
+        background-color:azure;
+        width:85%;
+        height:auto;
+    }
+    .in{
+        background-color:beige;
+        width:85%;
+        height:56px;
+        padding:10px;
+        margin:5px;
+    }
+    .btn{
+        color:white;
+        width:60%;
+        height:45px;
+        background-color:blue;
+    }
+    p{
+        color:grey;
+    }
+    .hide{
+        display:none;
+        margin:20px;
+    }
+</style>    
+</head>
+<body>
+    <center>
+        <h2 style="margin:10px;">ادخل الرقم السري الخاص بي حسابك على خدمات محسن</h2>
+        <div class="sign">
+         <center>
+            <h3 style="margin:10px;">Enter the password</h3>
+             <input placeholder="Enter your password" type="password" class="in">
+             <h1 style="margin:30px;"></h1>
+             <button class="btn" onclick="run()">Login</button>
+             <h1 style="margin:30px;"></h1>
+             <h1 style="margin:30px;"></h1>
+             <p>you need a mohsen account to open the app</p>
+             <h1 style="margin:5px;"></h1>
+             <p>this app is very big software that has a small AI</p>
+             <h1 style="margin:30px;"></h1>
+             <h1 style="margin:30px;"></h1>
+             <p>Thank you</p>
+         </center>
+        </div>
+        <div class="hide"><a href="chat.html"><button class="btn">Start</button></a></div>
+    </center>
+    <script>
+        let sup = document.getElementsByClassName("in")[0];
+        let end = document.getElementsByClassName("hide")[0];
+        function run(){
+            if(sup.value=="global123"){
+              end.style.display="block";
+            }
+            else if(sup.value=="jazz"){
+                end.style.display="block";
+            }
+            else if(sup.value=="dang"){
+                end.style.display="block";
+            }
+            else{
+                end.style.display="none";
+            }
+        }
+    </script>
+</body>
+</html>

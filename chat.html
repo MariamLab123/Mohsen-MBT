@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat MBT</title>
+<style>
+    *{
+        border:0;
+        margin:0;
+        text-decoration:none;
+        font-family:sans-serif;
+        color:azure;
+    }
+    body{
+        background-color:rgb(8, 2, 37);
+    }
+    .h{
+        color:orange;
+    }
+    .bord{
+        background-color:black;
+        width:95%;
+        height:auto;
+        padding:10px;
+    }
+    .ai{
+        background-color:brown;
+        width:80%;
+        height:auto;
+        border-radius:20px;
+    }
+    .writen{
+        position:fixed;
+        top:85%;
+        width:100%;
+        height:20vh;
+        background-color:darkslategray;
+    }
+    .v{
+        width:60%;
+        height:auto;
+        background-color:azure;
+        border-radius:5px;
+        padding:20px;
+        outline:none;
+        color:black;
+    }
+</style>    
+</head>
+<body>
+    <center>
+    <div class="bord"><h1 class="h">Mohsen MBT</h1></div>
+    </center>
+    <center>
+    <h1 style="height:30px;"></h1>
+    <div class="ai"><h2 id="a">عاوز ايه</h2></div>
+    <h1 style="height:30px;"></h1>
+    <h1 style="height:30px;"></h1>
+    <h1 style="height:30px;"></h1>
+    <h1 style="height:30px;"></h1>
+    <h1 style="height:30px;"></h1>
+    <div class="writen"><input type="text" placeholder="انجز" class="v"></div>
+    </center>
+    <script>
+        let ans = document.getElementById("a");
+        let v = document.getElementsByClassName("v")[0];
+        v.onkeyup = function(){
+            if(v.value=="عاوز بتيه"){
+                ans.innerHTML = "الدم جحيم";
+            }
+            else if(v.value=="عامل ايه"){
+                ans.innerHTML = "زفت";
+            }
+            else if(v.value=="اخبارك ايه"){
+                ans.innerHTML = "احسن منك";
+            }
+            else if(v.value=="عندك كراش"){
+                ans.innerHTML = "عيب";
+            }
+            else if(v.value=="شكرا"){
+                ans.innerHTML = "اخيرا";
+            }
+            else if(v.value=="عندك صحاب"){
+                ans.innerHTML = "156";
+            }
+            else if(v.value=="انت عبيط"){
+                ans.innerHTML = "خرا عليك";
+            }
+            else if(v.value=="مين"){
+                ans.innerHTML = "انت مالك";
+            }
+            else if(v.value=="مسي ولا رونالدو"){
+                ans.innerHTML = "انا";
+            }
+            else if(v.value=="رونالدو ولا مسي"){
+                ans.innerHTML = "انا";
+            }
+            else if(v.value=="خرا عليك انت"){
+                ans.innerHTML = "الشتيمة تلف و ترجع لصاحبها";
+            }
+            else if(v.value=="عليك انت"){
+                ans.innerHTML = "الشتيمة تلف و ترجع لصاحبها";
+            }
+            else if(v.value=="عندك كام سنة"){
+                ans.innerHTML = "اكبر منك";
+            }
+            else if(v.value=="انت بنت"){
+                ans.innerHTML = "بلا بلا";
+            }
+            else if(v.value=="اسكت"){
+                ans.innerHTML = "حريم يلا";
+            }
+            else if(v.value=="كس امك"){
+                ans.innerHTML = "امك متناكة";
+            }
+            else if(v.value=="امك متناكة"){
+                ans.innerHTML = "كس امك";
+            }
+            else if(v.value=="امك متناكه"){
+                ans.innerHTML = "كس امك";
+            }
+            else if(v.value=="صايم ولا زي كل سنة"){
+                ans.innerHTML = "زي كل سنة";
+            }
+            else if(v.value=="بتتكلم انجليزي"){
+                ans.innerHTML = "ليه هو انا كافر";
+            }
+            else if(v.value=="انت خرا"){
+                ans.innerHTML = "حبيت ام%ك يلا";
+            }
+            else if(v.value=="امك انته"){
+                ans.innerHTML = "يا شاذ";
+            }
+            else if(v.value=="انت حمار"){
+                ans.innerHTML = "و انت ابوية";
+            }
+            else if(v.value=="انت خروف"){
+                ans.innerHTML = "ليه يا مت%%ك";
+            }
+            else if(v.value=="حرام عليك"){
+                ans.innerHTML = "ليه هو انا كافر مثلك";
+            }
+            else if(v.value=="انت بتتكلم غلط"){
+                ans.innerHTML = "من صانعي";
+            }
+            else if(v.value=="ازيك"){
+                ans.innerHTML = "اسكت يلا";
+            }
+            else{
+                ans.innerHTML = "ايه";
+            }
+        }
+    </script>
+</body>
+</html>
